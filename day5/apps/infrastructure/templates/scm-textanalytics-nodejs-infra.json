@@ -89,7 +89,7 @@
                         },
                         {
                             "name": "FUNCTIONS_EXTENSION_VERSION",
-                            "value": "~2"
+                            "value": "~3"
                         },
                         {
                             "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
@@ -110,6 +110,10 @@
                         {
                             "name": "TA_SUBSCRIPTION_KEY",
                             "value": "[listKeys(resourceId(parameters('commonResGroup'), 'Microsoft.CognitiveServices/accounts', parameters('taname')), '2017-04-18').key1]"
+                        },
+                        {
+                            "name": "WEBSITE_RUN_FROM_PACKAGE",
+                            "value": "1"
                         }
                     ]
                 }

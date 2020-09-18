@@ -102,6 +102,10 @@
                         {
                             "name": "AUDIENCE",
                             "value": "[parameters('aadClientIdUri')]"
+                        },
+                        {
+                            "name": "WEBSITE_RUN_FROM_PACKAGE",
+                            "value": "1"
                         }
                     ],
                     "connectionStrings": [
